@@ -1,4 +1,20 @@
 ---
 label: my-posts
 hide_body: false
-fields: []
+fields:
+- name: post_title
+  type: text
+  config:
+    required: false
+  label: Post Title
+  description: dayum dasa post there
+- name: text_areas_feild_for_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text Areas Feild for text
+  description: dayum dasa text field
