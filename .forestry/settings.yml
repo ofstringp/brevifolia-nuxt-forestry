@@ -13,6 +13,13 @@ sections:
   match: "**/*"
   templates:
   - blog-post
+- type: directory
+  path: content/page-content
+  label: Pages
+  create: documents
+  match: "**/*"
+  templates:
+  - meat-page
 - type: document
   path: content/data/authors.json
   label: Author List
