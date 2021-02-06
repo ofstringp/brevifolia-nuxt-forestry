@@ -18,3 +18,5 @@ fields:
       format: markdown
   label: Body Meat
   description: the meat of the body
+pages:
+- content/page-content/meat-page-one.md
