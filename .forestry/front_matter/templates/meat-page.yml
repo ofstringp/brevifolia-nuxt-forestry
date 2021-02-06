@@ -1,4 +1,20 @@
 ---
 label: Meat Page
 hide_body: true
-fields: []
+fields:
+- name: meat_title
+  type: text
+  config:
+    required: false
+  label: Meat Title
+  description: The title of the meat
+- name: body_meat
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body Meat
+  description: the meat of the body
